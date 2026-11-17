@@ -1,0 +1,44 @@
+# Claude Code (personal settings, memory, local config)
+.claude/
+CLAUDE.local.md
+
+# IDE (JetBrains / VS Code)
+.idea/
+*.iml
+.vscode/
+
+# Secrets and credentials (Garmin Connect login, API keys, tokens)
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+application-local.*
+*.local.properties
+garmin-tokens/
+.garth/
+
+# Java / Maven / Gradle
+target/
+build/
+.gradle/
+out/
+*.class
+*.log
+*.jar
+
+# React / Node
+node_modules/
+dist/
+coverage/
+.next/
+npm-debug.log*
+
+# Python / misc
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
